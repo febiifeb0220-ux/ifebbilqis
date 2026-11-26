@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ifeb &#8212; Creative Portfolio | DKV Visual Designer</title>
+<meta content="Portofolio kreatif Ifeb, siswa DKV SMKN 10 Surabaya. Karya desain grafis, logo, mockup, UI/UX, 3D Blender, dan video." name="description"/>
+<meta content="#E95288" name="theme-color"/>
+<link href="favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Ifeb &#8212; Creative Portfolio" property="og:title"/>
+<meta content="Portofolio kreatif Ifeb: desain grafis, logo, mockup, UI/UX, Blender 3D, dan video." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="IFEB%20FOTO.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Ifeb &#8212; Creative Portfolio" name="twitter:title"/>
+<meta content="Portofolio kreatif Ifeb: desain grafis, logo, mockup, UI/UX, Blender 3D, dan video." name="twitter:description"/>
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Playfair Display, Great Vibes & Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- FontAwesome for Social and UI icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              pink: '#E95288',
+              deepPink: '#D83B75',
+              softPink: '#FDEFF4',
+              lavender: '#E8DFF5',
+              sky: '#D6EAF8',
+              plum: '#6C2B4E',
+              roseBorder: '#F7C6D9'
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            script: ['"Great Vibes"', 'cursive']
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Custom Styles for Decorative Dreamy Pastel Aesthetic -->
+<style data-purpose="decorations-and-textures">
+    /* Subtle lace scallop background border */
+    .lace-border {
+      background-image: radial-gradient(circle at 10px 0px, transparent 8px, #ffffff 9px);
+      background-size: 20px 20px;
+    }
+    
+    .lace-scallop-top {
+      background: radial-gradient(circle at 12px 0px, transparent 8px, rgba(255, 255, 255, 0.95) 9px);
+      background-size: 24px 16px;
+      height: 16px;
+      width: 100%;
+    }
+
+    .lace-scallop-bottom {
+      background: radial-gradient(circle at 12px 16px, transparent 8px, rgba(255, 255, 255, 0.95) 9px);
+      background-size: 24px 16px;
+      height: 16px;
+      width: 100%;
+    }
+
+    /* Soft Glow & Dreamy Shadows */
+    .dreamy-shadow {
+      box-shadow: 0 10px 30px -5px rgba(226, 92, 142, 0.15), 0 0 20px 2px rgba(255, 255, 255, 0.8);
+    }
+    
+    .pink-glow {
+      filter: drop-shadow(0 0 12px rgba(233, 82, 136, 0.3));
+    }
+
+    /* Smooth glass container */
+    .glass-card {
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1.5px solid rgba(255, 255, 255, 0.9);
+    }
+
+    /* Animated gentle float for decorative sparkles */
+    @keyframes subtle-float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-6px) rotate(3deg); }
+    }
+    .floating-sparkle {
+      animation: subtle-float 4s ease-in-out infinite;
+    }
+
+    /* Horizontal scrolling nav without visible scrollbar on small screens */
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+<!-- END: Custom Styles -->
+</head>
+<body class="bg-gradient-to-b from-[#CCE5FD] via-[#F4E3F3] to-[#FCE6F1] font-sans text-brand-plum min-h-screen relative overflow-x-hidden selection:bg-brand-pink selection:text-white">
+<!-- BEGIN: Dreamy Background Ribbon & Sparkle Elements -->
+<div aria-hidden="true" class="fixed inset-0 pointer-events-none z-0 overflow-hidden" data-purpose="background-ambient-elements">
+<!-- Ambient Sparkles -->
+<div class="absolute top-28 left-[12%] text-pink-400 opacity-60 text-lg floating-sparkle">✦</div>
+<div class="absolute top-48 left-[42%] text-pink-400 opacity-70 text-sm floating-sparkle" style="animation-delay: 1.5s;">✧</div>
+<div class="absolute top-80 left-[18%] text-brand-pink opacity-50 text-2xl floating-sparkle" style="animation-delay: 0.8s;">✦</div>
+<div class="absolute top-[32rem] right-[22%] text-pink-400 opacity-60 text-xl floating-sparkle" style="animation-delay: 2s;">✦</div>
+<div class="absolute top-[48rem] left-[8%] text-pink-400 opacity-50 text-base floating-sparkle">✧</div>
+<div class="absolute bottom-[28rem] right-[10%] text-brand-pink opacity-40 text-2xl floating-sparkle">✦</div>
+<div class="absolute bottom-96 left-[25%] text-pink-300 opacity-60 text-lg floating-sparkle">✧</div>
+<!-- Ambient Hearts -->
+<div class="absolute top-[26rem] left-[6%] text-brand-pink/50 text-2xl">♡</div>
+<div class="absolute top-[28rem] left-[8%] text-brand-pink/40 text-sm">♡</div>
+<div class="absolute top-[36rem] right-[8%] text-brand-pink/40 text-xl">♡</div>
+<div class="absolute bottom-[22rem] left-[15%] text-brand-pink/45 text-2xl">♡</div>
+<div class="absolute bottom-[24rem] right-[15%] text-brand-pink/45 text-2xl">♡</div>
+<!-- Background Vignette/Gradient Blobs -->
+<div class="absolute -top-32 -left-32 w-96 h-96 bg-white/40 rounded-full blur-3xl"></div>
+<div class="absolute top-1/3 -right-32 w-96 h-96 bg-pink-200/40 rounded-full blur-3xl"></div>
+<div class="absolute bottom-10 left-1/4 w-[500px] h-[500px] bg-sky-100/40 rounded-full blur-3xl"></div>
+</div>
+<!-- END: Dreamy Background Ribbon & Sparkle Elements -->
+<div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-6 flex flex-col items-center">
+<!-- BEGIN: Top Navigation Bar -->
+<header class="w-full flex justify-center sticky top-4 z-50 mb-6" data-purpose="top-navigation">
+<nav class="no-scrollbar bg-white/85 backdrop-blur-md px-3 py-1.5 rounded-full shadow-md border border-white/80 flex items-center gap-1 sm:gap-2 max-w-[calc(100vw-2rem)] overflow-x-auto">
+<a class="bg-brand-pink text-white text-xs sm:text-sm font-semibold px-5 py-1.5 rounded-full shadow-sm transition hover:bg-brand-deepPink whitespace-nowrap" href="#home">
+          Home
+        </a>
+<a class="text-brand-plum hover:text-brand-pink text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full transition whitespace-nowrap" href="#about">
+          About
+        </a>
+<a class="text-brand-plum hover:text-brand-pink text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full transition whitespace-nowrap" href="#skills">
+          Skills &amp; Organization
+        </a>
+<a class="text-brand-plum hover:text-brand-pink text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full transition whitespace-nowrap" href="#portfolio">
+          Portfolio
+        </a>
+<a class="text-brand-plum hover:text-brand-pink text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full transition whitespace-nowrap" href="#contact">
+          Contact
+        </a>
+</nav>
+</header>
+<!-- END: Top Navigation Bar -->
+<!-- BEGIN: Hero Section -->
+<section class="w-full relative pt-4 pb-12 overflow-visible" data-purpose="hero-section" id="home">
+<!-- Top Right Satin Bow Graphic Accent -->
+<div class="absolute -top-6 -right-4 md:-top-8 md:-right-2 z-30 pointer-events-none">
+<svg class="w-40 h-40 md:w-52 md:h-52 drop-shadow-md text-pink-300 fill-current" viewbox="0 0 100 100">
+<!-- Stylized Bow SVG -->
+<path d="M50 45 C40 25 15 20 20 40 C23 50 42 48 48 46 C42 60 25 85 20 90 C25 90 45 70 50 52 C55 70 75 90 80 90 C75 85 58 60 52 46 C58 48 77 50 80 40 C85 20 60 25 50 45 Z" fill="#FBB6CE"></path>
+<circle cx="50" cy="46" fill="#F472B6" r="6"></circle>
+</svg>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+<!-- Hero Left Column: Brand & Taglines -->
+<div class="md:col-span-6 flex flex-col items-center md:items-start text-center md:text-left pt-6">
+<div class="relative inline-block mb-1">
+<!-- Crown Motif -->
+<div class="absolute -top-5 left-1 text-brand-pink transform -rotate-12">
+<svg class="w-8 h-8 fill-brand-pink" viewbox="0 0 24 24">
+<path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5m14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1z"></path>
+</svg>
+</div>
+<!-- Orbiting Swoosh Line -->
+<svg class="absolute -inset-4 w-[125%] h-[130%] pointer-events-none stroke-brand-pink/50 fill-none" stroke-width="1.5" viewbox="0 0 200 100">
+<ellipse cx="95" cy="52" rx="90" ry="32" transform="rotate(-8 95 52)"></ellipse>
+</svg>
+<!-- Main Name Title -->
+<h1 class="text-7xl sm:text-8xl font-serif font-extrabold text-brand-pink tracking-tight drop-shadow-sm select-none">
+              Ifeb
+            </h1>
+</div>
+<h2 class="text-2xl sm:text-3xl font-serif font-bold text-brand-plum/90 mt-1 mb-3">
+            Creative Portfolio
+          </h2>
+<!-- Ribbon Bow Divider -->
+<div class="flex items-center justify-center md:justify-start gap-3 w-full max-w-xs my-2 text-brand-pink">
+<span class="h-[1.5px] bg-brand-pink/40 flex-1"></span>
+<span class="text-2xl">🎀</span>
+<span class="h-[1.5px] bg-brand-pink/40 flex-1"></span>
+</div>
+<!-- Tagline -->
+<p class="text-brand-plum font-serif text-base sm:text-lg tracking-wide font-medium flex items-center gap-2 mb-6">
+<span class="text-brand-pink text-xs">✦</span>
+            create.inspire.dream
+            <span class="text-brand-pink text-xs">✦</span>
+</p>
+<!-- Explore Button CTA -->
+<a class="inline-flex items-center gap-3 bg-brand-pink hover:bg-brand-deepPink text-white font-medium px-6 py-2.5 rounded-full shadow-lg shadow-pink-300/60 transition-all duration-300 hover:scale-105 group" href="#portfolio">
+<span class="text-sm font-semibold tracking-wide">Explore My Portfolio</span>
+<span class="w-6 h-6 rounded-full bg-white text-brand-pink flex items-center justify-center text-xs group-hover:translate-x-0.5 transition-transform">
+<i class="fa-solid fa-chevron-right"></i>
+</span>
+</a>
+</div>
+<!-- Hero Right Column: Creator Portrait with Floral Accents -->
+<div class="md:col-span-6 relative flex justify-center md:justify-end">
+<!-- Portrait Frame with Soft Glow -->
+<div class="relative w-full aspect-[3/2] overflow-visible flex items-center justify-center">
+<!-- Glow circle -->
+<div class="absolute inset-2 bg-gradient-to-tr from-pink-300 to-sky-200 rounded-full blur-2xl opacity-60"></div>
+<!-- Hijab Creator Portrait with gentle fade out edge -->
+<div class="relative w-full h-full overflow-hidden">
+<img alt="Ifeb Smiling Portrait wearing pastel pink hijab" class="w-full h-full object-cover object-center transform hover:scale-110 transition duration-700" src="IFEB%20FOTO.png"/>
+<div class="absolute inset-0 bg-gradient-to-t from-pink-100/30 via-transparent to-transparent pointer-events-none"></div>
+</div>
+<!-- Matching Pink Bow Accent (Bottom Left) -->
+<div class="absolute -bottom-8 -left-6 md:-bottom-10 md:-left-8 z-20 pointer-events-none">
+<svg class="w-40 h-40 md:w-52 md:h-52 drop-shadow-md" viewbox="0 0 100 100">
+<path d="M50 45 C40 25 15 20 20 40 C23 50 42 48 48 46 C42 60 25 85 20 90 C25 90 45 70 50 52 C55 70 75 90 80 90 C75 85 58 60 52 46 C58 48 77 50 80 40 C85 20 60 25 50 45 Z" fill="#FBB6CE"></path>
+<circle cx="50" cy="46" fill="#F472B6" r="6"></circle>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Hero Section -->
+<!-- BEGIN: Scalloped Lace Divider Ribbon -->
+<div aria-hidden="true" class="w-full my-6 relative py-4 flex items-center justify-center" data-purpose="section-lace-divider">
+<div class="w-full h-3 border-t-2 border-b-2 border-dashed border-white/90 relative flex items-center justify-center">
+<div class="absolute inset-x-0 h-6 -top-2 bg-gradient-to-r from-sky-200/50 via-white/80 to-pink-200/50 backdrop-blur-sm shadow-inner rounded-full flex items-center justify-around overflow-hidden px-4">
+<span class="text-white/80 text-xs">✿</span>
+<span class="text-white/80 text-xs">✿</span>
+<span class="text-white/80 text-xs">✿</span>
+<span class="text-white/80 text-xs">✿</span>
+<span class="text-white/80 text-xs">✿</span>
+<span class="text-white/80 text-xs">✿</span>
+<span class="text-white/80 text-xs">✿</span>
+</div>
+</div>
+</div>
+<!-- END: Scalloped Lace Divider Ribbon -->
+<!-- BEGIN: About Me Section -->
+<section class="w-full relative my-8" data-purpose="about-me-section" id="about">
+<div class="w-full glass-card rounded-3xl p-6 sm:p-10 shadow-xl relative overflow-hidden border border-white">
+<!-- Floating Lace Decor Inside Card -->
+<div class="absolute top-0 right-0 w-32 h-32 bg-pink-100/50 rounded-full blur-2xl pointer-events-none"></div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+<!-- Polaroid Photo Card on Left -->
+<div class="md:col-span-5 flex justify-center">
+<div class="relative transform -rotate-3 hover:rotate-0 transition-transform duration-300">
+<!-- Bow Taped on top left of polaroid -->
+<div class="absolute -top-5 -left-5 z-20 text-3xl filter drop-shadow">
+                🎀
+              </div>
+<!-- White Polaroid Frame -->
+<div class="bg-white p-3.5 pb-8 rounded-lg shadow-xl border border-pink-100 max-w-[240px] sm:max-w-[270px]">
+<div class="w-full aspect-square rounded overflow-hidden bg-pink-50">
+<img alt="Ifeb Polaroid" class="w-full h-full object-cover object-top" src="IFEB%20FOTO%202.png"/>
+</div>
+</div>
+<!-- Doodle Hearts near polaroid -->
+<span class="absolute -bottom-4 -left-6 text-brand-pink text-2xl">♡</span>
+<span class="absolute -bottom-2 -left-2 text-brand-pink text-sm">♡</span>
+</div>
+</div>
+<!-- About Details on Right -->
+<div class="md:col-span-7 flex flex-col items-center md:items-start text-center md:text-left">
+<div class="flex items-center gap-2 text-brand-pink mb-1">
+<span class="text-2xl">🎀</span>
+<h2 class="text-3xl font-serif font-bold text-brand-pink">About Me</h2>
+</div>
+<h3 class="text-xl sm:text-2xl font-serif font-bold text-brand-deepPink mt-1 mb-3 flex items-center gap-1.5">
+              Hello, I'm Ifeb! <span class="text-brand-pink text-lg">♡</span>
+</h3>
+<p class="text-gray-700 text-sm sm:text-base leading-relaxed mb-4 font-normal max-w-lg">
+              Halo! Saya adalah siswa jurusan Desain Komunikasi Visual (DKV) dari SMKN 10 Surabaya yang selalu bersemangat mengubah ide menjadi karya visual yang penuh warna dan berkesan. Bagi saya, setiap proyek adalah petualangan kreatif yang seru untuk mengeksplorasi desain yang tidak hanya estetis, tetapi juga mampu bercerita dan menghidupkan pesan Anda.
+            </p>
+<p class="text-gray-700 text-sm sm:text-base leading-relaxed mb-6 font-normal max-w-lg">
+              Saya sangat terbuka dan antusias untuk berbagai peluang kolaborasi kreatif, proyek desain, maupun kesempatan magang. Jika Anda memiliki ide menarik yang ingin diwujudkan menjadi karya luar biasa, mari terhubung dan ciptakan sesuatu yang hebat bersama!
+            </p>
+<!-- Outline Button -->
+<a class="inline-flex items-center gap-2 border-2 border-brand-pink text-brand-pink hover:bg-brand-pink hover:text-white font-medium text-xs sm:text-sm px-6 py-2 rounded-full transition-all duration-300 shadow-sm" href="#contact">
+<span>Know More</span>
+<span>♡</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: About Me Section -->
+<!-- BEGIN: Skills & Organization Experience Section -->
+<section class="w-full my-8" data-purpose="skills-and-experience-section" id="skills">
+<!-- Section Header -->
+<div class="text-center mb-6">
+<div class="inline-flex items-center gap-3">
+<span class="text-2xl text-brand-pink">🎀</span>
+<h2 class="text-2xl sm:text-3xl font-serif font-bold text-brand-pink">
+            My Skills &amp; Organization Experience
+          </h2>
+<span class="text-2xl text-brand-pink">🎀</span>
+</div>
+<p class="text-xs sm:text-sm text-brand-plum font-serif italic mt-1 font-medium">
+          Growing, Learning, and Collaborating ♡
+        </p>
+</div>
+<!-- Skills & Org Container Card -->
+<div class="glass-card rounded-3xl p-6 sm:p-8 shadow-xl border border-white">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 relative">
+<!-- Left Column: My Skills -->
+<div class="md:col-span-7 flex flex-col items-center">
+<h3 class="text-lg font-serif font-bold text-brand-plum mb-6 relative">
+              My Skills
+            </h3>
+<!-- 5 Skills Badges Row -->
+<div class="flex flex-wrap justify-center items-center gap-3 sm:gap-4 w-full">
+<!-- Canva -->
+<div class="flex flex-col items-center gap-2 group">
+<div class="w-14 h-14 rounded-full bg-white shadow-md group-hover:scale-110 transition duration-300 flex items-center justify-center border border-pink-100 overflow-hidden">
+<img alt="Logo Canva" class="w-full h-full object-cover rounded-full" src="LOGO%20CANVA.jpg"/>
+</div>
+<span class="text-xs font-semibold text-gray-700">Canva</span>
+</div>
+<!-- Adobe Illustrator -->
+<div class="flex flex-col items-center gap-2 group">
+<div class="w-14 h-14 rounded-full bg-white p-1 shadow-md group-hover:scale-110 transition duration-300 flex items-center justify-center border border-pink-100 overflow-hidden">
+<img alt="Logo Adobe Illustrator" class="w-full h-full object-contain" src="LOGO%20ADOBE%20ILUSTRATOR.jpg"/>
+</div>
+<span class="text-xs font-semibold text-gray-700 text-center leading-tight">Adobe<br class="hidden sm:inline"/> Illustrator</span>
+</div>
+<!-- CapCut -->
+<div class="flex flex-col items-center gap-2 group">
+<div class="w-14 h-14 rounded-full bg-white shadow-md group-hover:scale-110 transition duration-300 flex items-center justify-center border border-pink-100 overflow-hidden">
+<img alt="Logo CapCut" class="w-full h-full object-cover rounded-full" src="LOGO%20CAPCUT.jpg"/>
+</div>
+<span class="text-xs font-semibold text-gray-700">CapCut</span>
+</div>
+<!-- Figma -->
+<div class="flex flex-col items-center gap-2 group">
+<div class="w-14 h-14 rounded-full bg-white shadow-md group-hover:scale-110 transition duration-300 flex items-center justify-center border border-pink-100 overflow-hidden">
+<img alt="Logo Figma" class="w-full h-full object-cover rounded-full" src="LOGO%20FIGMA.jpg"/>
+</div>
+<span class="text-xs font-semibold text-gray-700">Figma</span>
+</div>
+<!-- Blender -->
+<div class="flex flex-col items-center gap-2 group">
+<div class="w-14 h-14 rounded-full bg-white p-1 shadow-md group-hover:scale-110 transition duration-300 flex items-center justify-center border border-pink-100 overflow-hidden">
+<img alt="Logo Blender" class="w-full h-full object-contain" src="LOGO%20BLENDER.jpg"/>
+</div>
+<span class="text-xs font-semibold text-gray-700">Blender</span>
+</div>
+</div>
+</div>
+<!-- Vertical Ribbon Divider in Center -->
+<div class="hidden md:flex md:col-span-1 justify-center relative items-center">
+<div class="h-full w-[1.5px] bg-pink-300 relative flex items-center justify-center">
+<span class="absolute bg-white px-1 py-0.5 rounded-full text-brand-pink text-lg shadow-sm">🎀</span>
+</div>
+</div>
+<!-- Right Column: Organization Experience -->
+<div class="md:col-span-4 flex flex-col items-center border-t md:border-t-0 pt-4 md:pt-0 border-pink-200">
+<h3 class="text-lg font-serif font-bold text-brand-plum mb-6">
+              Organization Experience
+            </h3>
+<div class="flex justify-center items-center gap-8">
+<!-- Pramuka Scout Emblem -->
+<div class="flex flex-col items-center gap-2 group">
+<div class="w-14 h-14 rounded-full bg-white border border-purple-200 shadow-md group-hover:scale-110 transition duration-300 flex items-center justify-center">
+<div class="w-11 h-11 rounded-full overflow-hidden flex items-center justify-center">
+<img alt="Logo Pramuka" class="w-full h-full object-contain" src="LOGO%20PRAMUKA.jpg"/>
+</div>
+</div>
+<span class="text-xs font-semibold text-gray-700">Pramuka</span>
+</div>
+<!-- Paskib Emblem -->
+<div class="flex flex-col items-center gap-2 group">
+<div class="w-14 h-14 rounded-full bg-white border border-red-200 shadow-md group-hover:scale-110 transition duration-300 flex items-center justify-center">
+<div class="w-11 h-11 rounded-full overflow-hidden flex items-center justify-center">
+<img alt="Logo Paskib" class="w-full h-full object-contain" src="LOGO%20PASKIB.jpeg"/>
+</div>
+</div>
+<span class="text-xs font-semibold text-gray-700">Paskib</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Skills & Organization Experience Section -->
+<!-- BEGIN: My Portfolio Section -->
+<section class="w-full my-8 relative" data-purpose="portfolio-gallery-section" id="portfolio">
+<!-- Section Header -->
+<div class="text-center mb-6">
+<div class="inline-flex items-center gap-2">
+<span class="text-2xl text-brand-pink">🎀</span>
+<h2 class="text-2xl sm:text-3xl font-serif font-bold text-brand-pink">
+            My Portfolio
+          </h2>
+<span class="text-xs text-brand-pink">✦</span>
+</div>
+<p class="text-xs sm:text-sm text-brand-plum font-serif italic mt-1 font-medium">
+          A collection of my creative works ♡
+        </p>
+</div>
+<!-- Carousel Navigation Arrows (Decorative Side Controls) -->
+<button aria-label="Lihat karya sebelumnya" id="portfolio-prev" title="Karya sebelumnya" class="absolute -left-3 sm:-left-5 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-brand-pink hover:bg-brand-deepPink text-white shadow-lg flex items-center justify-center transition">
+<i class="fa-solid fa-chevron-left text-xs sm:text-sm"></i>
+</button>
+<button aria-label="Lihat karya berikutnya" id="portfolio-next" title="Karya berikutnya" class="absolute -right-3 sm:-right-5 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-brand-pink hover:bg-brand-deepPink text-white shadow-lg flex items-center justify-center transition">
+<i class="fa-solid fa-chevron-right text-xs sm:text-sm"></i>
+</button>
+<!-- Portfolio Card Grid (5 Columns x 2 Rows) -->
+<div class="glass-card rounded-3xl p-5 sm:p-7 shadow-xl border border-white">
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3.5 sm:gap-4">
+<!-- Card 01: Nirmana -->
+<div class="bg-white/80 rounded-2xl p-2.5 shadow-sm border border-brand-roseBorder flex flex-col items-center hover:-translate-y-1 hover:shadow-md cursor-pointer transition duration-300" role="button" tabindex="0" data-portfolio="1">
+<div class="w-full aspect-[4/3] rounded-xl overflow-hidden bg-pink-50 flex items-center justify-center" data-portfolio-part="1">
+<img alt="Karya Nirmana titik" class="w-full h-full object-cover" data-portfolio-part="1" loading="lazy" src="NIRMANA%20TITIK.jpeg"/>
+</div>
+<div class="text-center mt-2.5" data-portfolio-part="1">
+<span class="block text-xs font-bold text-brand-pink" data-portfolio-part="1">01</span>
+<span class="block text-xs font-semibold text-gray-800" data-portfolio-part="1">Nirmana</span>
+</div>
+</div>
+<!-- Card 02: Gambar Arsir -->
+<div class="bg-white/80 rounded-2xl p-2.5 shadow-sm border border-brand-roseBorder flex flex-col items-center hover:-translate-y-1 hover:shadow-md cursor-pointer transition duration-300" role="button" tabindex="0" data-portfolio="2">
+<div class="w-full aspect-[4/3] rounded-xl overflow-hidden bg-gray-100 flex items-center justify-center">
+<img alt="Karya gambar arsir warna" class="w-full h-full object-cover" loading="lazy" src="ARSIR%20%20WARNA.png"/>
+</div>
+<div class="text-center mt-2.5">
+<span class="block text-xs font-bold text-brand-pink">02</span>
+<span class="block text-xs font-semibold text-gray-800">Gambar Arsir</span>
+</div>
+</div>
+<!-- Card 03: Desain Logo -->
+<div class="bg-white/80 rounded-2xl p-2.5 shadow-sm border border-brand-roseBorder flex flex-col items-center hover:-translate-y-1 hover:shadow-md cursor-pointer transition duration-300" role="button" tabindex="0" data-portfolio="3">
+<div class="w-full aspect-[4/3] rounded-xl overflow-hidden bg-pink-50 flex items-center justify-center">
+<img alt="Desain logo Nusantara Kopi" class="w-full h-full object-contain p-1" loading="lazy" src="LOGO%20NUSANTARA%20KOPI.png"/>
+</div><div class="text-center mt-2.5">
+<span class="block text-xs font-bold text-brand-pink">03</span>
+<span class="block text-xs font-semibold text-gray-800">Desain Logo</span>
+</div>
+</div>
+<!-- Card 04: Desain Mockup -->
+<div class="bg-white/80 rounded-2xl p-2.5 shadow-sm border border-brand-roseBorder flex flex-col items-center hover:-translate-y-1 hover:shadow-md cursor-pointer transition duration-300" role="button" tabindex="0" data-portfolio="4">
+<div class="w-full aspect-[4/3] rounded-xl overflow-hidden bg-pink-50 flex items-center justify-center">
+<img alt="Mockup merchandise Merdeka" class="w-full h-full object-cover" loading="lazy" src="MOCKUP%20GANCI%20%20MERDEKA.png"/>
+</div><div class="text-center mt-2.5">
+<span class="block text-xs font-bold text-brand-pink">04</span>
+<span class="block text-xs font-semibold text-gray-800">Desain Mockup</span>
+</div>
+</div>
+<!-- Card 05: Blender 3D -->
+<div class="bg-white/80 rounded-2xl p-2.5 shadow-sm border border-brand-roseBorder flex flex-col items-center hover:-translate-y-1 hover:shadow-md cursor-pointer transition duration-300" role="button" tabindex="0" data-portfolio="5">
+<div class="w-full aspect-[4/3] rounded-xl overflow-hidden bg-sky-50 flex items-center justify-center">
+<img alt="Render 3D Blender Gerobak" class="w-full h-full object-cover" loading="lazy" src="3D%20BLENDER%20GEROBAK.png"/>
+</div><div class="text-center mt-2.5">
+<span class="block text-xs font-bold text-brand-pink">05</span>
+<span class="block text-xs font-semibold text-gray-800">Blender 3D</span>
+</div>
+</div>
+<!-- Card 06: UI/UX Design -->
+<div class="bg-white/80 rounded-2xl p-2.5 shadow-sm border border-brand-roseBorder flex flex-col items-center hover:-translate-y-1 hover:shadow-md cursor-pointer transition duration-300" role="button" tabindex="0" data-portfolio="6">
+<div class="w-full aspect-[4/3] rounded-xl overflow-hidden bg-blue-50 flex items-center justify-center">
+<img alt="Desain UI/UX Figma Kopi Nusantara" class="w-full h-full object-cover" loading="lazy" src="FIGMA%20KOPI%20NUSANTARA.png"/>
+</div>
+<div class="text-center mt-2.5">
+<span class="block text-xs font-bold text-brand-pink">06</span>
+<span class="block text-xs font-semibold text-gray-800">UI/UX Design</span>
+</div>
+</div>
+<!-- Card 07: After Effects -->
+<div class="bg-white/80 rounded-2xl p-2.5 shadow-sm border border-brand-roseBorder flex flex-col items-center hover:-translate-y-1 hover:shadow-md cursor-pointer transition duration-300" role="button" tabindex="0" data-portfolio="7">
+<div class="w-full aspect-[4/3] rounded-xl overflow-hidden bg-indigo-950 flex items-center justify-center">
+<img alt="Cuplikan karya After Effects" class="w-full h-full object-cover" loading="lazy" src="video/after-effects-thumb.jpg"/>
+</div>
+<div class="text-center mt-2.5">
+<span class="block text-xs font-bold text-brand-pink">07</span>
+<span class="block text-xs font-semibold text-gray-800">After Effects</span>
+</div>
+</div>
+<!-- Card 08: Magang FTIRS ITS -->
+<div class="bg-white/80 rounded-2xl p-2.5 shadow-sm border border-brand-roseBorder flex flex-col items-center hover:-translate-y-1 hover:shadow-md cursor-pointer transition duration-300" role="button" tabindex="0" data-portfolio="8">
+<div class="w-full aspect-[4/3] rounded-xl overflow-hidden bg-gray-100 flex items-center justify-center">
+<img alt="Feed Instagram FTIRS ITS" class="w-full h-full object-cover" loading="lazy" src="FEED%20IG%20FTIRS%20WISUDA.jpeg"/>
+</div>
+<div class="text-center mt-2.5">
+<span class="block text-xs font-bold text-brand-pink">08</span>
+<span class="block text-xs font-semibold text-gray-800">Magang FTIRS ITS</span>
+</div>
+</div>
+<!-- Card 09: Magang BELUGA DIGITAL STUDIO -->
+<div class="bg-white/80 rounded-2xl p-2.5 shadow-sm border border-brand-roseBorder flex flex-col items-center hover:-translate-y-1 hover:shadow-md cursor-pointer transition duration-300" role="button" tabindex="0" data-portfolio="9">
+<div class="w-full aspect-[4/3] rounded-xl overflow-hidden bg-slate-800 flex items-center justify-center">
+<img alt="Sertifikat magang Beluga Digital Studio" class="w-full h-full object-cover" loading="lazy" src="SERTIFIKAT%20MAGANG%20BELUGA%20DIGITAL%20STUDIO.png"/>
+</div>
+<div class="text-center mt-2.5">
+<span class="block text-xs font-bold text-brand-pink">09</span>
+<span class="block text-xs font-semibold text-gray-800 leading-tight">Magang BELUGA<br/>DIGITAL STUDIO</span>
+</div>
+</div>
+<!-- Card 10: Sertifikat Magang -->
+<div class="bg-white/80 rounded-2xl p-2.5 shadow-sm border border-brand-roseBorder flex flex-col items-center hover:-translate-y-1 hover:shadow-md cursor-pointer transition duration-300" role="button" tabindex="0" data-portfolio="10">
+<div class="w-full aspect-[4/3] rounded-xl overflow-hidden bg-pink-50 flex items-center justify-center">
+<img alt="Sertifikat magang FTIRS ITS" class="w-full h-full object-contain p-1" loading="lazy" src="SERTIFIKAT%20MAGANG%20FTIRS%20ITS.png"/>
+</div>
+<div class="text-center mt-2.5">
+<span class="block text-xs font-bold text-brand-pink">10</span>
+<span class="block text-xs font-semibold text-gray-800">Sertifikat Magang</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: My Portfolio Section -->
+<!-- BEGIN: Contact Me Section -->
+<section class="w-full my-8 relative flex flex-col items-center" data-purpose="contact-me-section" id="contact">
+<!-- Lace Framed Capsule Card -->
+<div class="w-full max-w-2xl glass-card rounded-full py-8 px-6 sm:px-12 shadow-xl border border-white relative flex flex-col items-center text-center">
+<!-- Header -->
+<div class="inline-flex items-center gap-2 mb-1">
+<span class="text-2xl text-brand-pink">🎀</span>
+<h2 class="text-2xl sm:text-3xl font-serif font-bold text-brand-pink">
+            Contact Me
+          </h2>
+<span class="text-xs text-brand-pink">✦</span>
+</div>
+<p class="text-xs sm:text-sm text-brand-plum font-serif italic mb-6 font-medium">
+          Let's work together! ♡
+        </p>
+<!-- TODO: ganti email dan link sosial media berikut dengan akun asli Ifeb -->
+<!-- Social Media Rounded Buttons -->
+<div class="flex items-center justify-center gap-4">
+<!-- Email -->
+<a aria-label="Send Email" class="w-11 h-11 rounded-full bg-brand-pink hover:bg-brand-deepPink text-white flex items-center justify-center shadow-md hover:scale-110 transition duration-300" href="mailto:hello@example.com">
+<i class="fa-solid fa-envelope text-base"></i>
+</a>
+<!-- Instagram -->
+<a aria-label="Instagram Profile" class="w-11 h-11 rounded-full bg-brand-pink hover:bg-brand-deepPink text-white flex items-center justify-center shadow-md hover:scale-110 transition duration-300" href="https://www.instagram.com/" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-instagram text-lg"></i>
+</a>
+<!-- TikTok -->
+<a aria-label="TikTok Profile" class="w-11 h-11 rounded-full bg-brand-pink hover:bg-brand-deepPink text-white flex items-center justify-center shadow-md hover:scale-110 transition duration-300" href="https://www.tiktok.com/" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-tiktok text-base"></i>
+</a>
+<!-- LinkedIn -->
+<a aria-label="LinkedIn Profile" class="w-11 h-11 rounded-full bg-brand-pink hover:bg-brand-deepPink text-white flex items-center justify-center shadow-md hover:scale-110 transition duration-300" href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank">
+<i class="fa-brands fa-linkedin-in text-base"></i>
+</a>
+</div>
+</div>
+<!-- Flowing Ribbon Bow Bottom Accents -->
+<div class="w-full flex justify-between items-end mt-4 px-4 pointer-events-none">
+<!-- Bottom Left Rose & Ribbon -->
+<div class="flex items-center gap-1">
+<span class="text-5xl drop-shadow-md">🌸</span>
+<span class="text-4xl -ml-3 drop-shadow-md">🌹</span>
+</div>
+<!-- Bottom Right Rose & Ribbon -->
+<div class="flex items-center gap-1">
+<span class="text-4xl -mr-3 drop-shadow-md">🌹</span>
+<span class="text-5xl drop-shadow-md">🌸</span>
+</div>
+</div>
+</section>
+<!-- END: Contact Me Section -->
+<!-- BEGIN: Footer -->
+<footer class="w-full text-center py-6 text-xs text-brand-plum/70 font-medium" data-purpose="page-footer">
+<p>© <span id="year">2026</span> Ifeb. All Rights Reserved. Crafted with love &amp; creativity ♡</p>
+</footer>
+<!-- END: Footer -->
+</div>
+<!-- BEGIN: Portfolio Detail Modal -->
+<div class="fixed inset-0 z-[100] hidden items-center justify-center p-4 sm:p-6" id="portfolio-modal" role="dialog" aria-modal="true" aria-labelledby="portfolio-modal-title">
+<div class="absolute inset-0 bg-brand-plum/60 backdrop-blur-sm" data-close-modal></div>
+<div class="relative z-10 w-full max-w-4xl max-h-[90vh] overflow-y-auto glass-card rounded-3xl shadow-2xl border border-white p-6 sm:p-8">
+<div class="flex items-start justify-between gap-4 mb-5">
+<div>
+<span class="block text-xs font-bold text-brand-pink mb-1" id="portfolio-modal-number"></span>
+<h3 class="text-2xl font-serif font-bold text-brand-pink" id="portfolio-modal-title"></h3>
+<p class="text-xs sm:text-sm text-brand-plum font-serif italic mt-1">Beberapa foto dan karya ♡</p>
+</div>
+<button type="button" aria-label="Tutup detail portofolio" data-close-modal id="portfolio-close" class="shrink-0 w-9 h-9 rounded-full bg-brand-pink hover:bg-brand-deepPink text-white flex items-center justify-center shadow-md transition">
+<i class="fa-solid fa-xmark"></i>
+</button>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4" id="portfolio-modal-gallery"></div>
+</div>
+</div>
+<!-- END: Portfolio Detail Modal -->
+<script>
+      const portfolioData = {
+        1: { title: 'Nirmana', files: [
+          { name: 'NIRMANA TITIK.jpeg', label: 'Nirmana Titik' },
+          { name: 'NIRMANA GARIS.jpeg', label: 'Nirmana Garis' },
+          { name: 'NIRMANA TITIK- GARIS FAUNA.jpeg', label: 'Nirmana Fauna Titik dan Garis' }
+        ] },
+        2: { title: 'Gambar Arsir', files: ['ARSIR  WARNA.png', 'ARSIR BOLA.png', 'ChatGPT Image Jul 25, 2026, 06_17_34 PM.png'] },
+        3: { title: 'Desain Logo', files: ['LOGO NUSANTARA KOPI.png', 'LOGO 109 KEBUN BINATANG.png'] },
+        4: { title: 'Desain Mockup', files: ['MOCKUP GANCI  MERDEKA.png', 'MACKUP GANCI.png', 'MACKUP TAS MERDEKA INDONESIA.png', 'Pembuatan Baju Hitam.png', 'KAOS TANPA DEPAN.png'] },
+        5: { title: 'Blender 3D', files: ['3D BLENDER GEROBAK.png', '3D BLENDER RUMAH.png', '3D ANYA BLENDER.png'] },
+        6: { title: 'UI/UX Design', files: ['FIGMA DORAYAKI.png', 'FIGMA KOPI NUSANTARA.png'] },
+        7: { title: 'After Effects', files: ['video/nusantara-coffe.mp4', 'video/hujan.mp4'] },
+        8: { title: 'Magang FTIRS ITS', sections: [
+          { title: 'Desain Feed IG', files: ['FEED IG FTIRS WISUDA.jpeg', 'FEED IG KUNJUNGAN FTIRS.jpeg', 'Ucapan bem (5).png', 'Ucapan bem (4).png'] },
+          { title: 'Banner', files: ['X- BANNER FTIRS.jpeg', 'X BANNER LANDSCAPE  FTIRS.jpeg'] },
+          { title: 'Poster', files: ['POSTER FTIRS DWP.jpeg', 'POSTER JUMAT SEHAT.jpeg', 'Ucapan bem (3).png'] },
+          { title: 'Dokumentasi Kegiatan', files: [
+            { name: 'WhatsApp Image 2026-05-26 at 14.40.15.jpeg', label: 'Hari Kartini' },
+            { name: 'WhatsApp Image 2026-05-26 at 14.40.15 (1).jpeg', label: 'Edukasi Beasiswa S2 Shanghai Cina' },
+            { name: 'WhatsApp Image 2026-05-26 at 14.40.19.jpeg', label: 'Bagi Bagi Takjil DWP' },
+            { name: 'WhatsApp Image 2026-05-26 at 14.40.20 (1).jpeg', label: 'Rapat dengan Departemen' },
+            { name: 'WhatsApp Image 2026-05-26 at 14.40.21 (1).jpeg', label: 'Rapat Rektorat FTIRS' },
+            { name: 'FEED IG KUNJUNGAN FTIRS.jpeg', label: 'Kegiatan Kunjungan' }
+          ] }
+        ] },
+        9: { title: 'Magang BELUGA DIGITAL STUDIO', sections: [
+          { title: 'Karya & Sertifikat', files: ['SERTIFIKAT MAGANG BELUGA DIGITAL STUDIO.png', 'SERTIFIKAT MAGANG BELUGA DIGITAL STUDIO (2).png', 'Untitled design (9).png', 'Untitled design (10).png', 'baby shampo (5).png', 'baby shampo (6).png', 'Untitled design (26).png'] },
+          { title: 'Video', files: ['video/flash-card.mp4', 'video/kentang-goreng.mp4', 'video/squishy.mp4', 'video/i-can-eat.mp4'] }
+        ] },
+        10: { title: 'Sertifikat Magang', files: ['SERTIFIKAT MAGANG FTIRS ITS.png', 'SERTIFIKST MAGANG FTIRS ITS.png', 'SERTIFIKAT MAGANG BELUGA DIGITAL STUDIO.png', 'SERTIFIKAT MAGANG BELUGA DIGITAL STUDIO (2).png'] }
+      };
+
+      const portfolioModal = document.getElementById('portfolio-modal');
+      const portfolioGallery = document.getElementById('portfolio-modal-gallery');
+      const portfolioTitle = document.getElementById('portfolio-modal-title');
+      const portfolioNumber = document.getElementById('portfolio-modal-number');
+      const portfolioClose = document.getElementById('portfolio-close');
+      const prevButton = document.getElementById('portfolio-prev');
+      const nextButton = document.getElementById('portfolio-next');
+
+      let currentPortfolioId = 1;
+      let lastFocusedElement = null;
+
+      function escapeHtml(value) {
+        return String(value)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      function renderPortfolioMedia(file, sectionTitle) {
+        const name = typeof file === 'string' ? file : file.name;
+        const caption = typeof file === 'string' ? name.replace(/\.[^.]+$/, '') : file.label;
+        // encodeURI keeps folder separators (video/...) intact and encodes spaces.
+        const src = encodeURI(name);
+        const isVideo = /\.(mp4|webm|mov|m4v)$/i.test(name);
+        const media = isVideo
+          ? '<video controls playsinline preload="metadata" class="w-full bg-black" src="' + src + '"></video>'
+          : '<img alt="' + escapeHtml(sectionTitle + ' - ' + caption) + '" class="w-full h-auto" loading="lazy" src="' + src + '"/>';
+        return '<figure class="rounded-2xl overflow-hidden border border-brand-roseBorder bg-white shadow-sm">' +
+          media +
+          '<figcaption class="px-3 py-2 text-xs text-brand-plum font-medium truncate">' + escapeHtml(caption) + '</figcaption>' +
+          '</figure>';
+      }
+
+      function openPortfolio(id) {
+        const item = portfolioData[id];
+        if (!item) return;
+        currentPortfolioId = Number(id);
+        portfolioNumber.textContent = 'Karya ' + id;
+        portfolioTitle.textContent = item.title;
+
+        if (item.sections) {
+          portfolioGallery.className = 'flex flex-col gap-6';
+          portfolioGallery.innerHTML = item.sections.map(function (section) {
+            return '<section class="rounded-2xl border border-brand-roseBorder bg-white/70 p-4">' +
+              '<h4 class="text-sm sm:text-base font-serif font-bold text-brand-deepPink mb-3">' + escapeHtml(section.title) + '</h4>' +
+              '<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">' +
+              section.files.map(function (file) { return renderPortfolioMedia(file, section.title); }).join('') +
+              '</div></section>';
+          }).join('');
+        } else {
+          portfolioGallery.className = 'grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4';
+          portfolioGallery.innerHTML = item.files.map(function (file) {
+            return renderPortfolioMedia(file, item.title);
+          }).join('');
+        }
+
+        lastFocusedElement = document.activeElement;
+        portfolioModal.classList.remove('hidden');
+        portfolioModal.classList.add('flex');
+        document.body.classList.add('overflow-hidden');
+        if (portfolioClose) portfolioClose.focus();
+      }
+
+      function closePortfolio() {
+        portfolioModal.classList.add('hidden');
+        portfolioModal.classList.remove('flex');
+        document.body.classList.remove('overflow-hidden');
+        if (lastFocusedElement && typeof lastFocusedElement.focus === 'function') {
+          lastFocusedElement.focus();
+        }
+      }
+
+      document.querySelectorAll('[data-portfolio]').forEach(function (card) {
+        card.addEventListener('click', function () {
+          openPortfolio(card.getAttribute('data-portfolio'));
+        });
+        card.addEventListener('keydown', function (event) {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openPortfolio(card.getAttribute('data-portfolio'));
+          }
+        });
+      });
+
+      document.querySelectorAll('[data-portfolio-part]').forEach(function (part) {
+        part.addEventListener('click', function (event) {
+          event.stopPropagation();
+          const card = part.closest('[data-portfolio]');
+          if (card) openPortfolio(card.getAttribute('data-portfolio'));
+        });
+      });
+
+      portfolioModal.querySelectorAll('[data-close-modal]').forEach(function (element) {
+        element.addEventListener('click', closePortfolio);
+      });
+
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape' && !portfolioModal.classList.contains('hidden')) {
+          closePortfolio();
+        }
+      });
+
+      if (prevButton) {
+        prevButton.addEventListener('click', function () {
+          openPortfolio(currentPortfolioId === 1 ? 10 : currentPortfolioId - 1);
+        });
+      }
+      if (nextButton) {
+        nextButton.addEventListener('click', function () {
+          openPortfolio(currentPortfolioId === 10 ? 1 : currentPortfolioId + 1);
+        });
+      }
+
+      const yearElement = document.getElementById('year');
+      if (yearElement) yearElement.textContent = new Date().getFullYear();
+    </script>
+</body></html>
