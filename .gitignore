@@ -1,0 +1,21 @@
+# Windows / macOS system files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Video sumber beresolusi 4K (versi web yang sudah dikompres ada di folder video/)
+/Flash card .mp4
+/kentang goreng .mp4
+/squishy .mp4
+/i can eat .MOV
+/hujan.mp4
+/render.mp4
+/nusantara coffe-.mp4
+
+# Editor / backup files
+*.tmp
+*.bak
+
+# File template lama / tidak dipakai website
+/DESIGN.md
+/screen.png

@@ -1,0 +1,9 @@
+# Normalize text files to LF in the repository; check out with LF everywhere.
+* text=auto eol=lf
+
+# Binary assets (never line-ending converted).
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.mp4 binary
+*.MOV binary
