@@ -25,22 +25,15 @@ Portofolio statis (HTML + Tailwind CDN) untuk Ifeb, siswa DKV SMKN 10 Surabaya. 
 - Menambahkan meta description, Open Graph, Twitter Card, theme color, dan favicon.
 - Video 4K asli dikompres menjadi versi web yang jauh lebih ringan (total ~21 MB, sebelumnya ~290 MB).
 
-## Yang masih perlu diganti manual
+## Kontak
 
-Buka `index.html`, cari komentar:
+Tombol kontak di `index.html` sudah terhubung ke:
 
-```html
-<!-- TODO: ganti email dan link sosial media berikut dengan akun asli Ifeb -->
-```
+- Email: `mailto:febi.ifeb0220@gmail.com`
+- Instagram: `https://www.instagram.com/febi_ifeb/`
+- WhatsApp: `https://wa.me/6287853869698`
 
-Lalu ganti:
-
-- `mailto:hello@example.com`
-- `https://www.instagram.com/`
-- `https://www.tiktok.com/`
-- `https://www.linkedin.com/`
-
-Dengan email dan akun asli Ifeb. Saat ini sengaja memakai placeholder karena data belum diberikan.
+TikTok dan LinkedIn sudah dihapus, jadi hanya tersisa 3 tombol kontak.
 
 Untuk preview sosial media yang lebih akurat, ganti nilai `og:image` dengan URL absolut setelah halaman live, misalnya:
 
