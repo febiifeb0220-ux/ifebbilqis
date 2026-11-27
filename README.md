@@ -83,14 +83,12 @@ File asli 4K sengaja **tidak di-upload** (sudah masuk `.gitignore`) agar reposit
 
 | File asli | Versi web |
 | --- | --- |
-| `Flash card .mp4` | `video/flash-card.mp4` |
-| `kentang goreng .mp4` | `video/kentang-goreng.mp4` |
 | `squishy .mp4` | `video/squishy.mp4` |
 | `i can eat .MOV` | `video/i-can-eat.mp4` (ditampilkan di bagian **Beluga Digital Studio**) |
 | `hujan.mp4` | `video/hujan.mp4` |
 | `nusantara coffe-.mp4` | `video/nusantara-coffe.mp4` |
 
-Video `video/render.mp4`, foto `BAJU MERDEKA [Recovered]-01.png`, `BAJU MERDEKA TANPA DEPAN.png`, `AFTER EFFECTS NAMA IFEB.png`, dan `Screenshot 2026-07-26 095229.png` sudah dihapus dari website sesuai permintaan. Thumbnail kartu **After Effects** sekarang memakai `video/after-effects-thumb.jpg` yang diambil dari video `nusantara-coffe.mp4`.
+Video `video/render.mp4`, `video/flash-card.mp4`, dan `video/kentang-goreng.mp4` sudah dihapus dari website. Foto yang juga dihapus: `BAJU MERDEKA [Recovered]-01.png`, `BAJU MERDEKA TANPA DEPAN.png`, `AFTER EFFECTS NAMA IFEB.png`, `Screenshot 2026-07-26 095229.png`, `MACKUP GANCI.png`, `KAOS TANPA DEPAN.png`, `Ucapan bem (3–5).png`, `Untitled design (10).png`, `baby shampo (5).png`, dan `MOCKUP GANCI  MERDEKA.png`. Cover kartu sekarang memakai file logo/cover yang baru diberikan.
 
 Jika ingin mengompres ulang, contoh perintah ffmpeg:
 
