@@ -88,7 +88,7 @@ File asli 4K sengaja **tidak di-upload** (sudah masuk `.gitignore`) agar reposit
 | `hujan.mp4` | `video/hujan.mp4` |
 | `nusantara coffe-.mp4` | `video/nusantara-coffe.mp4` |
 
-Video `video/render.mp4`, `video/flash-card.mp4`, dan `video/kentang-goreng.mp4` sudah dihapus dari website. Foto yang juga dihapus: `BAJU MERDEKA [Recovered]-01.png`, `BAJU MERDEKA TANPA DEPAN.png`, `AFTER EFFECTS NAMA IFEB.png`, `Screenshot 2026-07-26 095229.png`, `MACKUP GANCI.png`, `KAOS TANPA DEPAN.png`, `Ucapan bem (3–5).png`, `Untitled design (10).png`, `baby shampo (5).png`, dan `MOCKUP GANCI  MERDEKA.png`. Cover kartu sekarang memakai file logo/cover yang baru diberikan.
+Video `video/render.mp4`, `video/flash-card.mp4`, dan `video/kentang-goreng.mp4` sudah dihapus dari website. Foto yang juga dihapus: `BAJU MERDEKA [Recovered]-01.png`, `BAJU MERDEKA TANPA DEPAN.png`, `AFTER EFFECTS NAMA IFEB.png`, `Screenshot 2026-07-26 095229.png`, `MACKUP GANCI.png`, `KAOS TANPA DEPAN.png`, `Ucapan bem (3–5).png`, `Untitled design (10).png`, `baby shampo (5).png`, `MOCKUP GANCI  MERDEKA.png`, `ChatGPT Image Jul 25, 2026, 06_17_34 PM.png`, `NIRMANA GARIS.jpeg`, dan `3D BLENDER RUMAH.png`. Cover kartu sekarang memakai file logo/cover yang baru diberikan.
 
 Jika ingin mengompres ulang, contoh perintah ffmpeg:
 
